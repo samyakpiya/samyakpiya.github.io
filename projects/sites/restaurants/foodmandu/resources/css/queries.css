@@ -1,0 +1,117 @@
+@media (max-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+
+  nav ul .nav-element {
+    display: none;
+    border: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  nav ul li a {
+    border-bottom: 2px solid #4aa047;
+  }
+
+  nav ul li a:hover,
+  nav ul li a:active {
+    border-bottom: 2px solid #9c0a0e;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .section--features ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1%;
+  }
+
+  .section--showcase-rows {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section--steps-box {
+    grid-template-columns: 1fr;
+  }
+
+  .section--steps-box img {
+    width: 80%;
+  }
+
+  .section--steps-box ul {
+    padding: 0;
+  }
+
+  .section--cities .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section--testimonials ul {
+    grid-template-columns: 1fr;
+  }
+
+  .section--plans-card {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 15px;
+  }
+
+  .section--features ul {
+    grid-template-columns: 1fr;
+  }
+
+  .section--steps-box img {
+    width: 100%;
+  }
+
+  .section--cities .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+  .section--form form div {
+    grid-template-columns: 1fr;
+  }
+
+  .section--form-newsletter p {
+    border-bottom: 2px solid #9c0a0e;
+  }
+
+  footer .footer-nav {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  footer .footer-nav ul:last-child {
+    text-align: center;
+  }
+
+  footer .sapi {
+    display: block;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
