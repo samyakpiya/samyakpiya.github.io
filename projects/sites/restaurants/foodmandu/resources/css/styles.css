@@ -175,7 +175,7 @@ header {
 
 /* ----- Main Nav ----- */
 nav {
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 37% 63%;
   align-items: center;
   font-weight: 300;
 }
