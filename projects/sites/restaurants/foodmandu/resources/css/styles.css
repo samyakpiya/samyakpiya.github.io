@@ -25,7 +25,7 @@ html {
 }
 
 h1 {
-  font-size: 300%;
+  font-size: 280%;
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -201,7 +201,7 @@ nav ul li a:link,
 nav ul li a:visited {
   color: white;
   text-decoration: none;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.3rem;
   transition: border 0.08s;
 }
 
@@ -218,8 +218,13 @@ nav ul li a:active {
 }
 
 main {
+  text-align: center;
   align-self: center;
   position: relative;
+}
+
+main h1 {
+  padding-bottom: 1rem;
 }
 
 /* ----- Mobile Nav ----- */
