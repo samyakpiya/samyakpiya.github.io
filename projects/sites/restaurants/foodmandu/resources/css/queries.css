@@ -15,6 +15,10 @@
     font-size: 18px;
   }
 
+  nav {
+    grid-template-columns: 35% 60% 5%;
+  }
+
   nav ul .nav-element {
     display: none;
     border: 0;
