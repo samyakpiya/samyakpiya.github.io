@@ -1,0 +1,13 @@
+New CSS Properties:
+
+background-position: top; (so image rescales with the top part never cutting out)
+clip-path: polygon(x y, x y, x y); (to create the cutting effect in header)
+transform: translate(x, y); (used with absolute positioning to center element)
+backface-visibility: hidden; (to hide slight disfunction of header button animation)
+@keyframes <animation_name> {} (to name and create custom animations)
+animation: <animaion_name> <animation_duration>  <animation_timing_function> <animation_delay>;
+::after (pseudo-element that places something just after an element)
+transition: all <transition_duration>; (selects all the transition effects used)
+animation-fill-mode: backwards; (to set the initial condition of the animated object to keyframe's 0%)
+
+
