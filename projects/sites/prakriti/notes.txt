@@ -10,4 +10,6 @@ animation: <animaion_name> <animation_duration>  <animation_timing_function> <an
 transition: all <transition_duration>; (selects all the transition effects used)
 animation-fill-mode: backwards; (to set the initial condition of the animated object to keyframe's 0%)
 
-
+Installed node for implemeting SASS:
+npm init (on directory)
+npm install node-sass --save-dev
