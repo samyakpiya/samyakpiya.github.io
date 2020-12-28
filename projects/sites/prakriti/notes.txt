@@ -13,3 +13,17 @@ animation-fill-mode: backwards; (to set the initial condition of the animated ob
 Installed node for implemeting SASS:
 npm init (on directory)
 npm install node-sass --save-dev
+
+Using 7 sass files formula
+utility classes
+not selector
+outline: 2rem solid black; (just like border)
+outline-offset-top: 1rem;
+-webkit-background-clip: text;
+transform: skew;
+
+perspective: 150rem;
+backface-visibility: hidden;
+
+background-blend-mode: screen;
+box-decoration-break: clone;
