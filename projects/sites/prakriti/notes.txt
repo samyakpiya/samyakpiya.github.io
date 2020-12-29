@@ -24,6 +24,31 @@ transform: skew;
 
 perspective: 150rem;
 backface-visibility: hidden;
-
+shape-outside: circle(50% at 50% 50%);
+filter: blur(3px) brightness(80%);
 background-blend-mode: screen;
 box-decoration-break: clone;
+
+section - tours:
+object-fit: cover;
+
+section: booking:-
+background-size: 100% / cover
+background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%)
+ &::-webkit-input-placeholder {
+      color: $color-grey-dark-2;
+    }
+
+&:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+      border-bottom: 3px solid $color-primary;
+
+      &:invalid {
+        border-bottom: 3px solid $color-secondary-dark;
+      }
+    }
+
