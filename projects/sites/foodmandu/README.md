@@ -1,7 +1,20 @@
-This project is a casual redesign of Foodmandu (https://www.foodmandu.com), a food delivery service in Nepal, for improving my CSS3 skills. 
+# Access this website project through: 
+*https://piyasamyak.github.io/projects/sites/foodmandu/
 
-It is an attempt to create a beautiful-looking website using only HTML5 and CSS3.
-No CSS3 frameworks have been used. The layout and responsiveness of the site was structured using CSS3 Grids.
-However, a jQuery plugin called "waypoints" has also been used to trigger site animations when a certain point in the page has been reached.
+- This project is my attempt on the redesign of the website, "Foodmandu" (https://www.foodmandu.com), a food delivery service in Kathmandu, Nepal.
 
-Note: The page currently has no backend functionality.
+## About
+- CSS3 Grids are used to structure the layout of the page.
+- A CSS library called animate.css is used to tweak in different animations.
+- Media queries are applied on CSS Rows and Columns templates for responsiveness.
+- A jQuery plugin called "waypoints" is implemented to trigger animations exactly when a certain point in the page has been reached.
+
+## What I Learned
+- Efficient and organized writing of CSS3 code.
+- Implementation of CSS3 Libraries (animate.css).
+- Implementation of jQuery Plugins (waypoint.js).
+- Image and code optimization for a faster website rendering time.
+
+
+
+
