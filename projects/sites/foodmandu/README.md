@@ -1,10 +1,10 @@
 # Access this website project through: 
-- https://piyasamyak.github.io/projects/sites/foodmandu/
+#### https://piyasamyak.github.io/projects/sites/foodmandu/
 
 
 
 ## About
-### This project is my attempt on the redesign of the website, "Foodmandu" (https://www.foodmandu.com), a food delivery service in Kathmandu, Nepal.
+#### This project is my attempt on the redesign of the website, "Foodmandu" (https://www.foodmandu.com), a food delivery service in Kathmandu, Nepal.
 - CSS3 Grids are used to structure the layout of the page.
 - A CSS library called animate.css is used to tweak in different animations.
 - Media queries are applied on CSS Rows and Columns templates for responsiveness.
