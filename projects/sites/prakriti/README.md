@@ -7,7 +7,7 @@
 - Only Vanilla HTML5 and CSS3 are used in this project (No CSS3 frameworks or Javascript).
 - The BEM (Block, Element, and Modifier) methodology is used as the naming convention for classes in HTML5 and CSS3.
 - **SASS** is used for efficiency purpose as well as to better structure and organize the CSS3 code.
--- To organize the different **SASS** files, the [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern) architecture is utilized.
+  - To organize the different **SASS** files, the [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern) architecture is utilized.
 - Media queries are applied for responsiveness.
 
 
@@ -18,4 +18,4 @@
 - Building rotating cards and a pure CSS3 popup.
 - Image optimization and code refactoring for a faster website rendering time.
 - Modern CSS properties:
--- transform, perspective, backface, shape, outline, & object.
+  - transform, perspective, backface, shape, outline, & object.
