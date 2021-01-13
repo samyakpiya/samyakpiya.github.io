@@ -4,7 +4,7 @@
 ## About
 #### This project is my attempt on creating a website for a fictional company that offer tours in the nature, "Prakriti" — which translates to "Nature".
 - Built with a desktop-first approach.
-- Only Vanilla HTML5 and CSS3 are used in this project. Neither CSS3 frameworks nor JavaScript are used.
+- Only Vanilla HTML5 and CSS3 are used in this project (No CSS3 frameworks or Javascript).
 - The BEM (Block, Element, and Modifier) methodology is used as the naming convention for classes in HTML5 and CSS3.
 - **SASS** is used for efficiency purpose as well as to better structure and organize the CSS3 code.
 -- To organize the different **SASS** files, the [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern) architecture is utilized.
