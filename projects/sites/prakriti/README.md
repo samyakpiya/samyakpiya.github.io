@@ -12,10 +12,10 @@
 
 
 ## What I Learned
-- Increasing efficiency and writing better organized code with the use of SASS.
-- Creating a responsive toggling navbar using only vanilla HTML5 and CSS3 (no CSS3 frameworks or JavaScript implemented).
-- Creating CSS3 animations using @keyframes.
-- Building rotating cards and a pure CSS3 popup.
-- Image optimization and code refactoring for a faster website rendering time.
+- Increasing efficiency and writing better organized code with the use of **SASS**.
+- Creating a **responsive toggle navbar** using only vanilla HTML5 and CSS3 (no CSS3 frameworks or JavaScript implemented).
+- Creating **CSS3 animations** using **@keyframes**.
+- Building **rotating cards** and a **pure CSS3 popup**.
+- **Image optimization** and **code refactoring** for a faster website rendering time.
 - Modern CSS properties such as:
   - transform, perspective, backface, shape, outline, & object.
