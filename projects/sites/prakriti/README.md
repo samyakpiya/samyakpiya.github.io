@@ -17,5 +17,5 @@
 - Creating CSS3 animations using @keyframes.
 - Building rotating cards and a pure CSS3 popup.
 - Image optimization and code refactoring for a faster website rendering time.
-- Modern CSS properties:
+- Modern CSS properties such as:
   - transform, perspective, backface, shape, outline, & object.
