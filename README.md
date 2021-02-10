@@ -8,6 +8,7 @@
 #### This section is a combined list of all the things I learnt while working on different web projects included within this repository in a chronological order. ####
 - Semantic HTML5
 - Efficient and organized writing of CSS3 code.
+- SASS
 - Implementation of CSS3 Libraries (animate.css).
 - Implementation of jQuery Plugins (waypoint.js).
 - Image and code optimization for a faster website rendering time.
