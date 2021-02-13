@@ -1,0 +1,121 @@
+.section {
+  // Main Section
+  &__main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 15rem;
+
+    &__heading {
+      &--1 {
+        animation: moveInLeft 1s ease-out;
+      }
+
+      &--author {
+        background: linear-gradient(to right, $color-focus, $color-focus-2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      &--2 {
+        animation: moveInRight 1s ease-out;
+        letter-spacing: 0.1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  // About Section
+  &__about {
+    min-height: 80vh;
+    background-image: linear-gradient(135deg, $color-focus, $color-focus-2);
+    color: $color-bg;
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+    display: flex;
+    align-items: center;
+    animation: moveInLeft 1s ease-out;
+    padding: 0 15rem;
+
+    &__heading {
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 7rem;
+    }
+
+    &__box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 5rem;
+      margin-bottom: 1rem;
+    }
+
+    &__box--1 {
+      border-radius: 1rem;
+      flex: 0 0 40%;
+      text-align: center;
+    }
+
+    &__description {
+      margin-bottom: 2rem;
+    }
+  }
+
+  // Section 2: Projects
+  &__projects {
+    padding: 0 15rem;
+
+    &__heading {
+      text-align: center;
+      text-transform: uppercase;
+      margin: 6rem;
+    }
+
+    &__project {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 5rem;
+      margin-bottom: 10rem;
+    }
+
+    &__description {
+      hyphens: auto;
+      font-size: 1.6rem;
+    }
+
+    &__image__container {
+      min-width: 70rem;
+      max-width: 136rem;
+    }
+
+    &__image {
+      display: block;
+      width: 100%;
+      opacity: 0.9;
+      transition: all .5s;
+
+
+      &:hover {
+        transform: scale(1.05);
+        overflow: hidden;
+      }
+    }
+
+    &__button {
+      margin: 2rem 0;
+
+      &--1 {
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+      }
+
+      &--2 {
+        font-size: 1.5rem;
+
+        &:hover {
+          color: $color-focus-2;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 2rem 0;
+}
+
+a:focus {
+  outline: none;
+}

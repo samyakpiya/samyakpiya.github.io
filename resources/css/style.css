@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap");
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 2rem 0;
+}
+
+a:focus {
+  outline: none;
+}
+
+body {
+  color: black;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  display: inline;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: linear-gradient(to right, #02aab0 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.2s ease-out, border 0.5s;
+  color: #00cdac;
+  border: #00cdac 0.2rem solid;
+}
+
+.btn--primary:hover {
+  color: white;
+  background-position: left bottom;
+  border: 0.2rem solid transparent;
+}
+
+.btn--secondary {
+  background: linear-gradient(to right, white 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.2s ease-out, border 0.5s;
+  color: white;
+  border: white 0.2rem solid;
+}
+
+.btn--secondary:hover {
+  color: #02aab0;
+  background-position: left bottom;
+  border: 0.2rem solid transparent;
+}
+
+.btn--tertiary {
+  color: #02aab0;
+}
+
+.cards {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
+  display: inline-block;
+  perspective: 1800px;
+  text-align: left;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 4096px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.section__main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 15rem;
+}
+
+.section__main__heading--1 {
+  animation: moveInLeft 1s ease-out;
+}
+
+.section__main__heading--author {
+  background: linear-gradient(to right, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__main__heading--2 {
+  animation: moveInRight 1s ease-out;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.section__about {
+  min-height: 80vh;
+  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  color: white;
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+  display: flex;
+  align-items: center;
+  animation: moveInLeft 1s ease-out;
+  padding: 0 15rem;
+}
+
+.section__about__heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 7rem;
+}
+
+.section__about__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+  margin-bottom: 1rem;
+}
+
+.section__about__box--1 {
+  border-radius: 1rem;
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.section__about__description {
+  margin-bottom: 2rem;
+}
+
+.section__projects {
+  padding: 0 15rem;
+}
+
+.section__projects__heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 6rem;
+}
+
+.section__projects__project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.section__projects__description {
+  hyphens: auto;
+  font-size: 1.6rem;
+}
+
+.section__projects__image__container {
+  min-width: 70rem;
+  max-width: 136rem;
+}
+
+.section__projects__image {
+  display: block;
+  width: 100%;
+  opacity: 0.9;
+  transition: all .5s;
+}
+
+.section__projects__image:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+.section__projects__button {
+  margin: 2rem 0;
+}
+
+.section__projects__button--1 {
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.section__projects__button--2 {
+  font-size: 1.5rem;
+}
+
+.section__projects__button--2:hover {
+  color: #00cdac;
+}
+/*# sourceMappingURL=style.css.map */
