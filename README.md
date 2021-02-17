@@ -1,5 +1,5 @@
-## Access the web projects through: ##
-#### Navigate to projects/sites/ within this repository and open the project you would like to view. Each project file includes a "README.md" document that consisits of a direct link to view the correspondnig website project. ####
+## Access my web projects through: https://piyasamyak.github.io/
+#### Or: Navigate to projects/sites/ within this repository and open the project you would like to view. Each project file includes a "README.md" document that consisits of a direct link to view the correspondnig website project. ####
 
 ## About ##
 #### This GitHub repository includes different website projects I've built over the last few years. ####
