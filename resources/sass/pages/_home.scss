@@ -96,7 +96,7 @@
 
     &__image__container {
       min-width: 40rem;
-      max-width: 120rem;
+      object-fit: cover;
       text-align: center;
     }
 

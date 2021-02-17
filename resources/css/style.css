@@ -163,6 +163,11 @@ body {
   html {
     font-size: 8px;
   }
+  .section__projects__project {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 0;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -188,11 +193,6 @@ body {
 @media (max-width: 775px) {
   html {
     font-size: 5px;
-  }
-  .section__projects__project {
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 0;
   }
 }
 
@@ -295,7 +295,7 @@ body {
 
 .section__projects__image__container {
   min-width: 40rem;
-  max-width: 120rem;
+  object-fit: cover;
   text-align: center;
 }
 
