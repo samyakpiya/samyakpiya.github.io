@@ -34,7 +34,6 @@
     display: flex;
     align-items: center;
     animation: moveInLeft 1s ease-out;
-    // padding: 0 15rem;
 
     &__heading {
       text-align: center;
@@ -51,7 +50,6 @@
     }
 
     &__box--1 {
-      border-radius: 1rem;
       text-align: center;
       min-width: 60rem;
     }
@@ -92,7 +90,6 @@
 
     &__description {
       hyphens: auto;
-      font-size: 1.6rem;
     }
 
     &__image__container {
