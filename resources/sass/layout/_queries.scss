@@ -1,0 +1,64 @@
+@media (max-width: 2000px) {
+  html {
+    font-size: 12px; // = 18px
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 10px; // = 10px
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1040px) {
+  html {
+    font-size: 6px;
+  }
+
+  .section {
+    &__main {
+      padding: 0;
+      justify-content: center;
+    }
+
+    &__about {
+      &__box {
+        flex-wrap: wrap;
+      }
+
+      &__box--2 {
+        padding: 0 12rem;
+      }
+
+      &__description {
+        text-align: justify;
+        text-align-last: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 775px) {
+  html {
+    font-size: 5px;
+  }
+
+  .section {
+    &__projects__project {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1px) {
+  html {
+    font-size: 30px;
+  }
+}

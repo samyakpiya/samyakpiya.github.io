@@ -1,30 +1,29 @@
 // Montserrat Font
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap");
 
 body {
-    color: $color-text;
+  color: $color-text;
 }
 
 h1 {
-    font-size: 6rem;
-    font-weight: 700;
-    margin-bottom: 3rem;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 h2 {
-    font-size: 5rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 h3 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 p {
-    font-size: 2.6rem;
-    font-weight: 400;
-    line-height: normal;
+  font-size: 2.8rem;
+  font-weight: 400;
 }
