@@ -52,6 +52,7 @@
     &__box--1 {
       text-align: center;
       min-width: 60rem;
+      max-width: 60rem;
     }
 
     &__img {
@@ -86,6 +87,7 @@
       display: flex;
       gap: 5rem;
       margin-bottom: 10rem;
+      justify-content: center;
     }
 
     &__description {
@@ -93,13 +95,14 @@
     }
 
     &__image__container {
-      width: fit-content;
+      min-width: 40rem;
+      max-width: 120rem;
+      text-align: center;
     }
 
     &__image {
+      text-align: center;
       display: block;
-      min-width: 70rem;
-      max-width: 136rem;
       width: 100%;
       opacity: 0.9;
       transition: all 0.5s;
