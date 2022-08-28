@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://piyasamyak.github.io/projects/sites/fm/qr-code-component/images/Solution Screenshot.png)
+![](https://piyasamyak.github.io/projects/sites/fm/qr-code-component/images/Solution-Screenshot.png)
 
 ### Links
 
