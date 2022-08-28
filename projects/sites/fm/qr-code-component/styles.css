@@ -50,7 +50,7 @@ footer a {
 }
 
 .card-image {
-    background-image: url(/images/image-qr-code.png);
+    background-image: url(images/image-qr-code.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
