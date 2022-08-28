@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/piyasamyak/Front-End-Projects/blob/main/Frontend%20Mentors/Product%20Preview%20Card%20Component/images/Solution%20Screenshot.png)
+![](https://piyasamyak.github.io/projects/sites/fm/qr-code-component/images/Solution Screenshot.png)
 
 ### Links
 
-- Solution URL: [Click Here.](https://github.com/piyasamyak/Front-End-Projects/tree/main/Frontend%20Mentors/Product%20Preview%20Card%20Component)
-- Live Site URL: https://piyasamyak.github.io/projects/sites/fm/product-preview-card/
+- Solution URL: [Click Here.](https://github.com/piyasamyak/piyasamyak.github.io/tree/main/projects/sites/fm/qr-code-component)
+- Live Site URL: https://piyasamyak.github.io/projects/sites/fm/qr-code-component/
 
 ## My process
 
