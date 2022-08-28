@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-This was similar to the ![Product Preview Card Component Challenge](https://github.com/piyasamyak/Front-End-Projects/tree/main/Frontend%20Mentors/Product%20Preview%20Card%20Component) that I completed. I reinforced my understanding of Semantic HTML and CSS custom properties (especially flexbox) while completing this project.
+This was similar to the [Product Preview Card Component Challenge](https://github.com/piyasamyak/Front-End-Projects/tree/main/Frontend%20Mentors/Product%20Preview%20Card%20Component) that I completed. I reinforced my understanding of Semantic HTML and CSS custom properties (especially flexbox) while completing this project.
 
 ### Continued development
 
